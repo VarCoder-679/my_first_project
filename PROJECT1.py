@@ -1,0 +1,12 @@
+##------> MADLIBS GAMES (Where we create stories using random words filling in the blanks)    
+noun1 = input("enter the noun(person, place or thing): ")
+noun2 = input("enter the noun(person, place or thing): ")
+adjective1 = input("enter the adjective: ")
+adjective2 = input("enter the adjective: ")
+verb1 = input("enter the verb: ")
+verb2 = input("enter the verb: ")
+# #STORY::
+print(f"Today I went to {noun1} monumnent.")
+print(f"There I saw {adjective1} statue.")
+print(f"The statue was {adjective2} and {verb1}.")
+print(f"It started {verb2}, so we came back from {noun2}.")
