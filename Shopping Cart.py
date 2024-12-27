@@ -6,7 +6,7 @@ total=0
 name=input("Enter the name of the customer: ")
 while True:
     food = input("Enter the food(q or Q for quit): ")
-    if food.lower()=="q" and "Q":
+    if food.lower()=="q": #automatically quit even if the letter is capitalize "Q"
         break
     else:
         price = float(input(f"Enter the price of {food}: Rs. "))
